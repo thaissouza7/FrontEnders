@@ -1,3 +1,5 @@
+/* Header */
+
 header{
     border-bottom: solid grey 1px;
 }
@@ -17,7 +19,7 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-/* Header */
+/* Body */
 
 .main-head{
     height: 150px;
@@ -89,4 +91,14 @@ body {
 .btn-black{
     background-color: #000 !important;
     color: #fff;
+}
+
+.forgot{
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.forgot:hover{
+    color: #373a3d;
+    text-decoration: none;
 }
