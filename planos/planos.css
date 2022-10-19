@@ -1,0 +1,15 @@
+/* HEADER */
+header{
+    border-bottom: solid grey 1px;
+}
+#btnr{
+    background-color: #FFE600;
+    border: solid #FFE600;
+}
+.marca a{
+    padding-right: 100px;
+    text-decoration: none;
+}
+.letra{
+    color: #FFE600  ;
+}
