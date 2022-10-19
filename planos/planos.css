@@ -68,9 +68,66 @@ header{
         -webkit-overflow-scrolling: touch;
       }
       /* FIM CSS BOOTSTRAP */
+ 
+      body{
+    background-color: black;
+  }
+  .card-header{
+  background-color: yellow;
+  border:none
+}
 
-      .card-header{
-        background-color: yellow;
-      }
-     
-      
+ .w-100{
+ background-color: #484848;
+ color: white;
+ border: solid yellow;
+}
+.card-title{
+  color: white;
+}
+.card-body{
+  background-color: #484848;
+}
+
+.text-start{
+  color: white;
+}
+
+li{
+  color:white;
+}
+
+.display-6{
+  color: white;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}      
+
+.titulo{
+  background-color: #FFE600;
+  border:solid white;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #484848;
+  text-align: center;
+}
+
+.especificacoes{
+  color: white;
+}
+.bi{
+  color: white;
+}
+
+.col{
+  width: 30%;
+  height: auto;
+}
+.col1{
+ width: 45%;
+  
+}
