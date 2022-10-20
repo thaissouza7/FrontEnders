@@ -12,6 +12,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
   <link rel="stylesheet" href="./forgot.css">
+  <script src="./forgot.js"></script>
 </head>
 <body>
   <!--CABEÇALHO-->
@@ -56,7 +57,7 @@
                        </div>
                      </div>
                      <div class="form-group">
-                       <input name="recover-submit" class="btn btn-lg btn-primary btn-block" value="Recuperar a Senha" type="submit">
+                       <input name="recover-submit" class="btn btn-lg btn-primary btn-block" onclick="enviar()" value="Recuperar a Senha" type="submit">
                      </div>
                      
                      <input type="hidden" class="hide" name="token" id="token" value=""> 
@@ -68,6 +69,17 @@
          </div>
  </div>
 </div>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</body>
   
 </body>
 </html>
