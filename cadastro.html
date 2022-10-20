@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Monique Moura">
+
+    <title>FrontEnders - Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="css/cadastro.css" rel="stylesheet">
+</head>
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 align-self-center m-3">
+                    <form class="aparencia">
+                        <div class="form-row">
+
+                            <div class="mb-3 text-center">
+                                <h1>Faça o seu Cadastro</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Dados</span>
+                                <hr class="mt-1" />
+                            </div>
+
+                            <div class="form-group mb-3 col-3">
+                                <label for="cpf">CPF</label>
+                                <input type="text" name="cpf" id="cpf" onkeypress="$(this).mask('000.000.000-00');"
+                                    class="form-control">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" name="nome">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" id="sobrenome" name="sobrenome">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" >
+                                <span class="d-none text-danger" id="emailSpan"></span>
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3 col-6">
+                                    <label for="senha">Senha</label>
+                                    <input type="password" class="form-control" id="senha" name="senha"
+                                  >
+                                    <span class="d-none text-danger" id="senhaSpan"></span>
+                                </div>
+                                <div class="form-group mb-3 col-6">
+                                    <label for="confirmaSenha">Confirmação de Senha</label>
+                                    <input type="password" class="form-control" id="confirmaSenha" name="confirmaSenha"
+                                        >
+                                    <span class="d-none text-danger" id="senhaConfirmSpan"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-row ">
+                            <div class="mb-3 mt-3">
+                                <span>Endereço</span>
+                                <hr class="mt-1" />
+                            </div>
+
+                            <div class="form-group mb-3 col-3">
+                                <label for="cep">CEP</label>
+                                <input type="text" class="form-control" id="cep" name="cep"
+                                    onkeypress="$(this).mask('00.000-000');" onblur="getCep();">
+                                <span class="d-none text-danger" id="cepSpan"></span>
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3 col-6">
+                                    <label for="cidade">Cidade</label>
+                                    <input type="text" class="form-control" id="cidade" name="cidade">
+                                </div>
+                                <div class="form-group mb-3 col-6">
+                                    <label for="estado">Estado</label>
+                                    <input type="text" class="form-control" id="estado" name="estado">
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="bairro">Bairro</label>
+                                <input type="text" class="form-control" id="bairro" name="bairro">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="rua">Rua</label>
+                                <input type="text" class="form-control" id="rua" name="rua">
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="form-group mb-3 col-3">
+                                    <label for="numero">Número</label>
+                                    <input type="number" class="form-control" id="numero" name="numero">
+                                </div>
+
+                                <div class="form-group mb-3 col-9">
+                                    <label for="complemento">Complemento</label>
+                                    <input type="text" class="form-control" id="complemento" name="complemento">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <button type="reset" class="btn btn-outline-dark btn-lg col-5 me-2">Limpar</button>
+                            <button type="submit" class="btn btn-primary btn-lg col-5 ms-2" id="submit">Cadastrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="js/cadastro.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+/**
+ * @author Monique Moura <eumoniqueribeiro@gmail.com>
+ */
+
+input[type=number] {
+   -moz-appearance: textfield;
+}
+
+.aparencia {
+   padding: 50px;
+   /* backdrop-filter: blur(15px); */
+   background-color: rgb(255, 255, 255);
+   border: 1px solid rgba(255, 255, 255, .25);
+   box-shadow: 0 0 30px 2px rgb(237, 249, 3);
+   z-index: 1;
+   padding: 40px;
+}
+
+main {
+   background-color: black;
+}
+
+.container {
+   background-color: none;
+}
