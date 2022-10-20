@@ -104,5 +104,54 @@ body{
   background-color: #FFE600;
 }
 .preco-plano {
-  color:white;
+  color:black;
+}
+.color-card-body{
+  background-color: gray;
+}
+.color-Premium{
+  color: black;
+}
+.Titulo-empresa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.conteudo-Titulo-empresa{
+  background-color: #FFE600;
+  border: solid white; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+}
+.barra-de-divisao{
+  background-color: white;
+  color: white;
+  height: 100%;
+  width: auto;
+}
+.div-barra-de-divisao{
+  height: 10%;
+}
+.Titulo-programador{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.conteudo-Titulo-programador{
+  background-color: #FFE600;
+  border: solid white; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+}
+.butao{
+ background-color: #484848;
+ border: solid gold;
+}
+.botao :hover{
+  background-color: #FFE600;
+  color: #4848;
 }
