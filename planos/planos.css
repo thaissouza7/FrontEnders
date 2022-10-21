@@ -1,20 +1,75 @@
-/* HEADER */
+/* HEADER Eduardo */
+
+    
+body{
+  background-color: rgb(32, 32, 24);
+  margin: 0;
+
+  
+  
+}
 header{
-    border-bottom: solid grey 1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  
+.container{
+  width: 100%;
 }
-#btnr{
-    background-color: #FFE600;
-    border: solid #FFE600;
-}
-.marca a{
-    padding-right: 100px;
-    text-decoration: none;
-}
-.letra{
-    color: #FFE600  ;
+.gradiente{
+  background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+  background-clip: text;/*apaga o fundo que esta atras da letra */
+  -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+  -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
 }
 
-/* fim do header */
+
+.text-bg-dark{
+  background-color: black !important;
+
+}
+#btnr{
+  background-color: #FFE600;
+  border: gold;
+  background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+}
+#btnr:hover{
+  
+ 
+  background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);;
+  
+}
+#btnr0{
+  background-color: #FFE600;
+  border: gold;
+  background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+  color: black;
+}
+#btnr0:hover{
+  background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+}
+.marca a{
+
+  text-decoration: none;
+  
+}
+.ajusteHeader{
+  /* border: #149b14 solid; */
+  width: auto;
+  padding:0 15px 0 15px;
+ 
+ 
+  background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+  background-clip: text;/*apaga o fundo que esta atras da letra */
+  -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+  -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+
+/* HEADER Eduardo */
 
 /* CSS BOOTSTRAP */
 .bd-placeholder-img {
@@ -68,9 +123,7 @@ header{
   -webkit-overflow-scrolling: touch;
 }
 /* fim css booststrap */
-body{
-  background-color: black;
-}
+
 .boxPreco{
   margin: 0 150px;
   display: flex;
@@ -104,30 +157,43 @@ body{
   border-bottom: white;
 }
 
+
 .color-card{
   background-color: #FFE600;
+    border: gold;
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
 }
 .preco-plano {
   color:black;
 }
 .color-card-body{
   background-color: gray;
+  outline: none;
 }
 .color-Premium{
   color: black;
 }
 .Titulo-empresa{
+
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 .conteudo-Titulo-empresa{
+  border-radius: 10px;
   background-color: #FFE600;
   border: solid white; 
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 60%;
+  background-color: #FFE600;
+  border: gold;
+  
+  height: 50px;
+  text-align: center;
+  margin-bottom: 0 !important;
 }
 
 .Titulo-programador{
@@ -137,11 +203,15 @@ body{
 }
 .conteudo-Titulo-programador{
   background-color: #FFE600;
+  border: gold; 
+  border-radius: 10px;
+  height: 50px;
   
-  border: solid white; 
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
+ 
   width: 60%;
 }
 .butao{
@@ -157,4 +227,16 @@ body{
 #test{
   border-top: solid white 1px;
   padding-top: 20px;
+}
+
+
+
+.bronze{
+  background: linear-gradient(90deg, rgba(128,74,0,1) 6%, rgba(137,94,26,1) 20%, rgba(176,141,87,1) 48%, rgba(128,74,0,1) 83%);
+}
+.prata{
+  background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+}
+.dourado{
+  background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
 }
