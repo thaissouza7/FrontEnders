@@ -1,73 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <!-- CSS bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- CSS bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <!-- JS boostrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
-    <!-- CSS projeto -->
-    <link rel="stylesheet" href="./planos.css">
+  <!-- JS boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 
-    <!-- JS projeto -->
-    <script src="./planos.js"></script>
+  <!-- CSS projeto -->
+  <link rel="stylesheet" href="./planos.css">
+
+  <!-- JS projeto -->
+  <script src="./planos.js"></script>
 </head>
 
 <body>
-    <!-- CABEÇALHO -->   
+  <!-- CABEÇALHO -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="check" viewBox="0 0 16 16">
       <title>Check</title>
-      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      <path
+        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
     </symbol>
   </svg>
-  
-  <div class="container py-3">
-    <header class="p-3 text-bg-dark">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <svg class="confirmados bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-            </a>
-            <a id="marca" class="nav-link px-2 text-white" href="index.html">
-            <h1><span class="letra">F</span>ront<span class="letra">E</span>nders</h1></a>
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="planos.html" class="nav-link px-2 text-white">Nossos Planos</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Contato</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Sobre</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-            </ul>
-            <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2">Entrar</button>
-              <button type="button" id="btnr" class="btn btn-warning">Registrar</button>
-            </div>
+  <header class="p-3 text-bg-dark">
+    <div class="container py-3">
+
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="confirmados bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <a id="marca" class="nav-link px-2 text-white" href="index.html">
+            <h1><span class="letra">F</span>ront<span class="letra">E</span>nders</h1>
+          </a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="planos.html" class="nav-link px-2 text-white">Nossos Planos</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Contato</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Sobre</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+          </ul>
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">Entrar</button>
+            <button type="button" id="btnr" class="btn btn-warning">Registrar</button>
           </div>
         </div>
-  </div>
-    </header>
+      </div>
+    </div>
+  </header>
   <!-- fim do CABEÇALHO -->
   <!-- começo da area de planos -->
   <!-- Planos developer -->
   <!-- free -->
   <main>
-    <div class="Titulo-programador">
-      <h1 class="conteudo-Titulo-programador">Para programador</h1>
-    </div>
+
+    <section id='test'>
+      <div class="Titulo-programador">
+        <h1 class="conteudo-Titulo-programador">Para programador</h1>
+      </div>
+    </section>
     <br>
     <div class="boxPreco row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="color-card card-header py-3">
-            <h4 class="my-0 fw-normal">Free</h4>
+            <h4 class="my-0 fw-normal">grátis</h4>
           </div>
           <div class="color-card-body card-body">
             <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light"></small></h1>
@@ -81,7 +90,7 @@
           </div>
         </div>
       </div>
-<!-- pro -->
+      <!-- pro -->
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="color-card card-header py-3">
@@ -101,7 +110,7 @@
       </div>
       <!-- extreme -->
       <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+        <div class="card mb-4 rounded-3 shadow-sm ">
           <div class="color-card card-header py-3 ">
             <h4 class="my-0 fw-normal">Premium</h4>
           </div>
@@ -118,79 +127,105 @@
         </div>
       </div>
     </div>
-<!-- especificações -->
-    <h2 class="textos-planos display-6 text-center mb-4">Compare plans</h2>
+    <!-- especificações -->
+    <h2 class="textos-planos display-6 text-center mb-4">Compare os planos</h2>
 
     <div class="boxtab table-responsive">
       <table class="table text-center">
         <thead>
           <tr>
             <th style="width: 34%;"></th>
-            <th class= "textos-planos" style="width: 22%;">Free</th>
-            <th class= "textos-planos" style="width: 22%;">Pro</th>
-            <th class= "textos-planos2" style="width: 22%;">Premium</th>
+            <th class="textos-planos" style="width: 22%;">grátis</th>
+            <th class="textos-planos" style="width: 22%;">Pro</th>
+            <th class="textos-planos2" style="width: 22%;">Premium</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row" class="textos-configuracoes textos-configuracoes text-start">Public</th>
-            <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="confirmados bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            <td><svg class="confirmados bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            <td><svg class="confirmados1 bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
           </tr>
           <tr>
             <th scope="row" class="textos-configuracoes textos-configuracoes text-start">Private</th>
             <td></td>
-            <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="confirmados bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            <td><svg class="confirmados1 bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
           </tr>
         </tbody>
 
         <tbody>
           <tr>
             <th scope="row" class="textos-configuracoes text-start">Permissions</th>
-            <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="confirmados bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            <td><svg class="confirmados bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            <td><svg class="confirmados1 bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
           </tr>
           <tr>
             <th scope="row" class="textos-configuracoes text-start">Sharing</th>
             <td></td>
-            <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="confirmados bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            <td><svg class="confirmados1 bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
           </tr>
           <tr>
             <th scope="row" class="textos-configuracoes text-start">Unlimited members</th>
             <td></td>
-            <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class=" confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="confirmados bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            <td><svg class=" confirmados1 bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
           </tr>
           <tr>
             <th scope="row" class="textos-configuracoes text-start">Extra security</th>
             <td></td>
             <td></td>
-            <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="confirmados2 bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
           </tr>
         </tbody>
       </table>
     </div>
     <main>
-        <!-- para empresas -->
-        
-        <div class ="div-barra-de-divisao">
-          <h1 class="barra-de-divisao">.</h1>
-        </div>
-        <br>
-        <br>
-        
+      <!-- para empresas -->
+
+
+      <br>
+      <br>
+
+      <section id="test">
         <div class="Titulo-empresa">
           <h1 class="conteudo-Titulo-empresa">Para Empresa</h1>
         </div>
-        <br>
-        <br>
+      </section>
+      <br>
+      <br>
 
 
-        <div class="boxPreco row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="boxPreco row row-cols-1 row-cols-md-3 mb-3 text-center">
         <!-- pro -->
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
@@ -211,7 +246,7 @@
         </div>
         <!-- extreme -->
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card mb-4 rounded-3 shadow-sm ">
             <div class="color-card card-header py-3  ">
               <h4 class="color-Premium my-0 fw-normal">Premium</h4>
             </div>
@@ -228,68 +263,95 @@
           </div>
         </div>
       </div>
-  <!-- especificações -->
-      <h2 class="textos-planos display-6 text-center mb-4">Compare plans</h2>
-  
+      <!-- especificações -->
+      <h2 class="textos-planos display-6 text-center mb-4">Compare os planos</h2>
+
       <div class="boxtab table-responsive">
         <table class="table text-center">
           <thead>
             <tr>
-              <th class= "" style="width: 34%;"></th>
-              <th class= "" style="width: 22%;"></th>
-              <th class= "textos-planos" style="width: 22%;">Pro</th>
-              <th class= "textos-planos2" style="width: 22%;">Premium</th>
+              <th class="" style="width: 34%;"></th>
+              <th class="" style="width: 22%;"></th>
+              <th class="textos-planos" style="width: 22%;">Pro</th>
+              <th class="textos-planos2" style="width: 22%;">Premium</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th scope="row" class="textos-configuracoes text-start">Public</th>
-              <td><svg class="confirmados bi" width="24" height="24"><use xlink:href=""/></svg></td>
-              <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="confirmados bi" width="24" height="24">
+                  <use xlink:href="" />
+                </svg></td>
+              <td><svg class="confirmados bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+              <td><svg class="confirmados1 bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
             </tr>
             <tr>
               <th scope="row" class="textos-configuracoes text-start">Private</th>
               <td></td>
-              <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="confirmados bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+              <td><svg class="confirmados1 bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
             </tr>
           </tbody>
-  
+
           <tbody>
             <tr>
               <th scope="row" class="textos-configuracoes text-start">Permissions</th>
-              <td><svg class="confirmados bi" width="24" height="24"><use xlink:href=""/></svg></td>
-              <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="confirmados bi" width="24" height="24">
+                  <use xlink:href="" />
+                </svg></td>
+              <td><svg class="confirmados bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+              <td><svg class="confirmados1 bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
             </tr>
             <tr>
               <th scope="row" class="textos-configuracoes text-start">Sharing</th>
               <td></td>
-              <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="confirmados bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+              <td><svg class="confirmados1 bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
             </tr>
             <tr>
               <th scope="row" class="textos-configuracoes text-start">Unlimited members</th>
               <td></td>
-              <td><svg class="confirmados bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="confirmados bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+              <td><svg class="confirmados1 bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
             </tr>
             <tr>
               <th scope="row" class="textos-configuracoes text-start">Extra security</th>
               <td></td>
               <td></td>
-              <td><svg class="confirmados1 bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="confirmados1 bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
             </tr>
           </tbody>
         </table>
       </div>
-  
 
-    
-  </main>
 
- 
-  </footer>
+
+    </main>
+
+
+    </footer>
 </body>
+
 </html>

@@ -99,6 +99,10 @@ body{
 .confirmados1{
   color: gold;
 }
+.confirmados2{
+  color: gold;
+  border-bottom: white;
+}
 
 .color-card{
   background-color: #FFE600;
@@ -125,15 +129,7 @@ body{
   justify-content: center;
   width: 60%;
 }
-.barra-de-divisao{
-  background-color: white;
-  color: white;
-  height: 100%;
-  width: auto;
-}
-.div-barra-de-divisao{
-  height: 10%;
-}
+
 .Titulo-programador{
   display: flex;
   flex-direction: row;
@@ -141,6 +137,7 @@ body{
 }
 .conteudo-Titulo-programador{
   background-color: #FFE600;
+  
   border: solid white; 
   display: flex;
   flex-direction: row;
@@ -153,5 +150,11 @@ body{
 }
 .botao :hover{
   background-color: #FFE600;
+  
   color: #4848;
+}
+
+#test{
+  border-top: solid white 1px;
+  padding-top: 20px;
 }
