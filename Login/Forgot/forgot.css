@@ -1,26 +1,71 @@
+/* HEADER Eduardo */
 
-/* Header */
-
+    
+body{
+    background-color: rgb(32, 32, 24);
+    margin: 0%;
+ 
+    
+    
+}
+/* HEADER Eduardo, ajustes Thais */
 header{
-    border-bottom: solid grey 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+.container{
+    width: 100%;
+}
+.gradiente{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+
+
+.text-bg-dark{
+    background-color: black !important;
+
 }
 #btnr{
     background-color: #FFE600;
-    border: solid #FFE600;
+    border: gold;
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+}
+#btnr:hover{
+    
+   
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    
+}
+#btnr0{
+    background-color: #FFE600;
+    border: gold;
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    color: black;
+}
+#btnr0:hover{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
 }
 .marca a{
-    padding-right: 100px;
     text-decoration: none;
 }
-.letra{
-    color: #FFE600  ;
+
+.ajusteHeader{
+    width: auto;
+    padding:0 15px 0 15px;
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
 }
 
-body {
-    font-family: "Lato", sans-serif;
-    background-color: #484848;
-}
-
+/* HEADER Eduardo, ajustes Thais */
 .form-gap {
     padding-top: 70px;
 }
@@ -38,3 +83,52 @@ border-radius: 20px;
     border: none;
     border-radius: 20px;
 }
+ a{
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%) !important;
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+ }
+a:hover{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%)!important;
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+ }
+.dourado{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+}
+.prata{
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%) !important;
+}
+
+/* FOOTER  */
+/* COR DO FOOTER  */
+footer{
+    margin-bottom: 0 !important;
+}
+
+.containerFooter{
+    background-color:black !important;
+     margin:0 !important;
+ }
+ /* COR DO FOOTER  */
+ 
+ /* CENTRALIZA O LOGO 'FRONTENDERS ' NO FOOTER  */
+ .centraliza{
+     font-size: 21px;
+ 
+     display: flex;
+     justify-content: center;
+ }/* CENTRALIZA O LOGO 'FRONTENDERS ' NO FOOTER  */
+ 
+ /* FOOTER FICAR SEM MARGIN BOTTOM  */
+ .my-4{
+     margin: 0 !important;
+ }
+ /* FOOTER FICAR SEM MARGIN BOTTOM  */
+ 
+ /* FOOTER  */
+
+ 
