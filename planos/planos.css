@@ -21,6 +21,8 @@ header{
   text-decoration: none;
   transform: scale(1.1);
   transition: all .5s;
+  padding: 20px;
+  
   
   
 
@@ -28,8 +30,9 @@ header{
 .card:hover{
   text-decoration: none;
   transform: scale(1.1);
+  padding: 20px;
+  background-color: rgb(32, 32, 24);
   transition: all .5s;
-  
 }
 .container{
   width: 100%;
