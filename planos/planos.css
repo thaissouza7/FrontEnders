@@ -16,7 +16,21 @@ header{
   flex-direction: row;
   justify-content: space-between;
   }
+
+.butao:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: all .5s;
   
+  
+
+}
+.card:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: all .5s;
+  
+}
 .container{
   width: 100%;
 }
@@ -217,6 +231,7 @@ header{
 .butao{
  background-color: #484848;
  border: solid gold;
+ color:white
 }
 .botao :hover{
   background-color: #FFE600;
