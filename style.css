@@ -1,0 +1,328 @@
+/* HEADER Eduardo */
+
+    
+body{
+    background-color: rgb(32, 32, 24);
+    margin: 0;
+ 
+    
+    
+}
+/* HEADER Eduardo, ajustes Thais */
+header{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+.container{
+    width: 100%;
+}
+.gradiente{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+
+
+.text-bg-dark{
+    background-color: black !important;
+
+}
+#btnr{
+    background-color: #FFE600;
+    border: gold;
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+}
+#btnr:hover{
+    
+   
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    
+}
+#btnr0{
+    background-color: #FFE600;
+    border: gold;
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    color: black;
+}
+#btnr0:hover{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+}
+.marca a{
+    text-decoration: none;
+}
+
+.ajusteHeader{
+    width: auto;
+    padding:0 15px 0 15px;
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+
+/* HEADER Eduardo, ajustes Thais */
+
+/* CONTAINER PRINCIPAL : CONTAINER PAI, ENGLOBA FORMULARIO E DESCRIÇÃO DO LADO ESQUERDO */
+
+.containerPrincipal{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.containerPrincipal h3{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* CONTAINER PRINCIPAL : CONTAINER PAI, ENGLOBA FORMULÁRIO E DESCRIÇÃO DO LADO ESQUERDO */
+
+/*CONTAINER FORMULÁRIO , INCLUINDO TODOS OS ITENS DO FORMULÁRIO E BOTÃO */
+
+/* CONFIGURAÇOES DO ESPAÇO QUE AGREGA TODOS OS ITENS DO FORMULARIO */
+.containerFormulario{
+    background-color: black;
+    color: goldenrod;
+    border-radius: 20px;
+    width: 85vh;
+    padding: 15px;
+    margin: 10px 0 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    text-align: start;
+}
+/* CONFIGURAÇOES DO ESPAÇO QUE AGREGA TODOS OS ITENS DO FORMULARIO */
+
+/* MUDA AS CORES DAS LETRAS DENTRO DO FORMULÁRIO */
+.containerFormulario p{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+/* MUDA AS CORES DAS LETRAS DENTRO DO FORMULÁRIO */
+
+/* PARA DEIXAR O TEXTAREA COM UM TAMANHO FIXO */
+.ajusteFormulario{
+    resize: none;
+}
+/* PARA DEIXAR O TEXTAREA COM UM TAMANHO FIXO */
+
+/* TAMANHO DO TEXTAREA  */
+#floatingTextarea{
+    height: 275px;
+   margin-top: 11px;
+}
+/* TAMANHO DO TEXTAREA  */
+
+/* COR DO TEXTO EXIBIDO DENTRO DO TEXTAREA  */
+#ajusteTexto{
+    color: #484848;
+}
+/* COR DO TEXTO EXIBIDO DENTRO DO TEXTAREA  */
+
+/* POSICIONAR O BOTÃO 'ENVIAR' AO CENTRO */
+.containerBtn{
+    display: flex;
+    justify-content: center;
+}
+/* POSICIONAR O BOTÃO 'ENVIAR' AO CENTRO */
+
+/* ESTILO DO BOTAO 'ENVIAR' */
+.btn-outline-info{
+    margin-top: 15px;
+    width: 100px;
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    border: none;
+    color: rgb(0, 0, 0);
+}
+/* POSICIONAMENTO DO BOTAO */
+.mb-3{
+    margin: 2px !important;
+}
+/* POSICIONAMENTO DO BOTAO */
+
+/* ESTILO DO BOTAO 'ENVIAR' */
+
+/* CONTAINER FORMULÁRIO , INCLUINDO TODOS OS ITENS DO FORMULÁRIO E BOTÃO */
+
+/* CONTAINER CONTENDO AS INFORMACOES DO LADO DIREITO */
+.containerInformacoes{
+    width: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+}
+
+/* MUDANÇAS EM TODOS OS LINKS (EXCLUINDO SUBLINADO) */
+a {
+    text-decoration: none;
+    color: black;
+}
+/* MUDANÇAS EM TODOS OS LINKS (EXCLUINDO SUBLINADO) */
+
+/* MUDA COR QUANDO O MOUSE PASSA NOS LINKS */
+a:hover{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+/* MUDA COR QUANDO O MOUSE PASSA NOS LINKS */
+
+/* PARTE SUPERIOR DO TEXTO, QUE CONTÉM A APRESENTAÇÃO DA PÁGINA */
+.informacoesTop{
+    width: 350px;
+    font-size: 18px;
+   margin-bottom: 25px;
+   color: white;
+}
+/* PARTE SUPERIOR DO TEXTO, QUE CONTÉM A APRESENTAÇÃO DA PÁGINA */
+
+/* MUDANÇA NO TITULO DO TEXTO SUPERIOR */
+.informacoesTop h1{
+    font-size: 30px;
+}
+/* MUDANÇA NO TITULO DO TEXTO SUPERIOR */
+
+/* PARTE INFERIOR DO TEXTO, QUE CONTEM "SIGA-NOS" E ICONES  */
+.informacoesBottom{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+  
+}
+.informacoesBottom a{
+    color:grey;
+}
+/* MUDA A COR DO ICONE  PASSANDO O MOUSE  */
+
+.informacoesBottom a:hover{
+    color: goldenrod;
+}
+/* MUDA A COR DO ICONE  PASSANDO O MOUSE  */
+
+/* PARTE INFERIOR DO TEXTO, QUE CONTEM "SIGA-NOS" E ICONES  */
+
+/* CONTAINER CONTENDO AS INFORMACOES DO LADO ESQUEDO */
+
+/* CONTAINER PRINCIPAL : CONTAINER PAI, ENGLOBA FORMULÁRIO E DESCRIÇÃO DO LADO ESQUERDO */
+
+
+/* FOOTER  */
+/* COR DO FOOTER  */
+.containerFooter{
+   background-color:black !important;
+    margin:0;
+}
+/* COR DO FOOTER  */
+
+/* CENTRALIZA O LOGO 'FRONTENDERS ' NO FOOTER  */
+.centraliza{
+    font-size: 21px;
+
+    display: flex;
+    justify-content: center;
+}/* CENTRALIZA O LOGO 'FRONTENDERS ' NO FOOTER  */
+
+/* FOOTER FICAR SEM MARGIN BOTTOM  */
+.my-4{
+    margin: 0 !important;
+}
+/* FOOTER FICAR SEM MARGIN BOTTOM  */
+
+/* FOOTER  */
+@media (max-width:800px){
+    *{
+    
+        margin: 0 ;
+        overflow-x: hidden !important;
+    }
+    h1,h4,h6,h3{
+        height: 48px;
+    }
+    body{
+        margin: 3px;
+        width: auto;
+        height: auto;
+    }
+    header{
+        width: 100%;
+        height: auto;
+    
+        }
+        header h1{
+          
+            text-align: center;
+        }
+    .containerPrincipal{
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: column-reverse;
+       
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .containerInformacoes{
+        margin-top: 5px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+       
+        text-align: center;
+        
+    }
+    .informacoesTop{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .informaçoesBottom{
+
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .containerFormulario{
+        
+        width: auto;
+        max-width: 600px;
+    }
+   footer{
+    display: flex;
+    flex-direction: column-reverse;
+   }     
+}
