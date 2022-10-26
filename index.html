@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ICONE -->
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+  <!--FONTE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+  <!--CSS BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!--JS BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <!-- DROP FADE-IN VOV -->
+  <link href="https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.css" rel="stylesheet" type="text/css">
+
+  <!--CSS PROJETO-->
+  <link rel="stylesheet" href="CSS/styleIndex.css">
+
+  <!--JS PROJETO-->
+  <script src="JS/scriptIndex.js"></script>
+
+  <title>FrontEnders</title>
+</head>
+
+<body>
+  <!--CABEÇALHO-->
+  <header  class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+        <a id="marca" class="nav-link px-2 text-white vov fade-in-down slowest" href="index.html">
+          <h1 class="gradiente"><span class="letra">F</span>ront<span class="letra">E</span>nders</h1>
+        </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 text-secondary degrade">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-white degrade">Nossos Planos</a></li>
+          <li><a href="contato.html" class="nav-link px-2 text-white degrade">Contato</a></li>
+          <li><a href="#sobre" class="nav-link px-2 text-white degrade">Sobre</a></li>
+          <li><a href="#testFaq" class="nav-link px-2 text-white degrade">FAQs</a></li>
+        </ul>
+        <div class="text-end">
+          <button id="entrarBtn" type="button" class="btn btn-outline-light me-2">Entrar</button>
+          <a href="cadastro.html"><button type="button" id="btnr" class="btn btn-warning">Registrar</button></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <main>
+    <!--TITULO-->
+    <section  id="titulo">
+      <p class="parag1 vov fade-in-down slow" >Desenvolvendo ou Desenvolvido <br> Você escolhe<strong class="ponto">.</strong></p>
+    </section>
+    </div>
+
+    <!-- Primeira Seção -->
+    <section id="sec1">
+
+      <!-- Imagem1 -->
+      <div>
+        <img id="fotoTopo" src="imagens/foto1.jpg" class="img-fluid vov fade-in-down fast" alt="">
+      </div>
+
+      <!-- 1o Carrosel -->
+      <div id="carro1" class="carousel slide vov fade-in-down fast" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carro1" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carro1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carro1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <h1 class="tituloCarrosel">Você Desenvolvendo<strong class="exch1">.</strong></h1>
+          <div class="carousel-item active">
+
+            <!-- Primeiro texto Carrosel1 -->
+            <p class="parag2">Você é um programador mas não consegue vaga no mercado de trabalho, seja por falta de:
+              Diploma; Experiencia; Indicações; Networking; Etc.<br> Com FrontEnders você escolhe em qual projeto quer
+              trabalhar!</p>
+          </div>
+          <div class="carousel-item">
+
+            <!-- Segundo texto Carrosel1 -->
+            <p class="parag2">Realize seu cadastro em nossa plataforma, mostre seu potencial passando por testes lógicos
+              de programações <br> Você sera avaliado por nossa equipe de desenvolvedores, e, ao ser aprovado terá seu
+              acesso garantido, e estara OFICIALMENTE trabalhando na </BR> Àrea TECH!</p>
+          </div>
+          <section class="testDiv">
+            <div class="carousel-item">
+              <!-- Terceiro texto Carrosel1 -->
+              <p class="parag2">Buscando visar maior acessibilidade, aqui na FrontEnders possuimos Três Planos, para
+                desenvolvedores, inclusive um totalmente GRATUITO!.
+                <br> Fique a vontade para explorar a melhor opção para você no momento.
+              </p>
+              <div><a href="#"><button id="btnp" type="button" class="btn btn-warning">Nossos Planos</button></a></div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Controles carrosel1 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carro1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carro1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Segunda Seção -->
+    <section id="sec2">
+
+      <!-- 2o Carrosel -->
+      <div id="carro2" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators"> <br> <br> <br>
+          <button type="button" data-bs-target="#carro2" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carro2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carro2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <h1 class="tituloCarrosel">Você Desenvolvido<strong class="exch1">.</strong></h1>
+          <div class="carousel-item active">
+
+            <!-- Primeiro texto Carrosel2 -->
+            <p class="parag2">Você empresa, em pleno 2022 ,ainda não possui uma identidade online e não faz a menor
+              ideia de como criar a sua??? <br>SEUS PROBLEMAS ACABARAM</p>
+          </div>
+          <div class="carousel-item">
+
+            <!-- Segundo texto Carrosel2 -->
+            <p class="parag2">Aqui na FrontEnders ligamos sua empresa direto a um profissional com conhecimento para
+              realizar seu PROJETO!</p>
+          </div>
+          <section class="testDiv">
+            <div class="carousel-item">
+              <!-- Terceiro texto Carrosel3 -->
+              <p class="parag2">Possuimos Dois Planos, para EMPRESAS, inclusive um deles super acessivel, para PEQUENOS
+                NEGÓCIOS!
+                <br> Fique a vontade para explorar a melhor opção para você no momento.
+              </p>
+              <div><a href="#"><button id="btnp" type="button" class="btn btn-warning">Nossos Planos</button></a></div>
+            </div>
+          </section>
+        </div>
+        <!-- Controles carrose2 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carro2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carro2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Imagem2 -->
+      <div id="fotoTopo">
+        <img id="img2" src="imagens/foto2.jpg" class="img-fluid" alt="empresa em reuniao">
+      </div>
+    </section>
+
+    <!-- Sobre nós -->
+    <section id="sec4">
+      <h1 id="sobre">Sobre nós</h1>
+      <br>
+      <p>Como uma StartUp criada em 2020, nosso foco é conectar quem precisa ser conectado! Temos um dado que diz que,
+        'hoje no mundo inteiro, apenas 3% das vagas ligadas a Engenharia de Software, Desenvolvimento WEB e afins estão
+        preenchidas', legal né?
+        <br>Deveria Ser! no BRASIL temos diversos profissionais prontos para exercer a profissão, mas por não ter o
+        Network necessario ou um diploma de graduação acabam ficando desempregrados. <br>
+        Observando este GAP, nós da FrontEnders, decidimos facilitar a vida, tanto do desenvolvedor, quanto a vida do
+        cliente que deseja implementar uma identidade Online para sua EMPRESA!
+      </p><br><a href="contato.html"><button id="btnp" type="button" class="btn btn-warning">Entre em Contato</button></a>
+    </section>
+
+    <!-- Comentarios -->
+    <section id="sec5">
+      <h1>Principais Avaliações</h1>
+      <br>
+      <div id="imgMain">
+        <div class="test"><img src="imagens/coment1.jpg" alt="foto de 1 homem"> <br>
+          <P class="parag5">ROGÉRIO SIMÕES.</P><BR>
+          <P class="parag5">(DEV Full-Stack)</P><br>
+          <p>"Conclui meu curso técnico de DEV Full-Stack pelo Senac este ano, para obter experiência decidi começar a
+            trabalhar como FreeLancer na FrontEnders, Optei pelo plano GRATÍS, até mesmo por estar começando agora, e ja
+            estou gostando muito!"</p><br><a href="#"><button id="btnp" type="button" class="btn btn-warning">Plano de
+              Rafael</button></a>
+        </div>
+        <div class="test"><img src="imagens/coment2.jpg" alt=""><br>
+          <P class="parag5">BEATRIZ SOUZA.</P><BR>
+          <P class="parag5">(DEV Front-End/Web Design)</P><br>
+          <p>"Antes de conhecer a FrontEnders, sempre trabalhei CLT, sou formada a 7 anos em Web-Design, e hoje ganho a
+            vida fazendo Free, Optei pelo plano PREMIUM porque acho que foi o que melhor me atendeu. A plataforma é
+            maravilhosa e super fácil de utilizar."</p><br><a href="#"><button id="btnp" type="button"
+              class="btn btn-warning">Plano de Bia</button></a>
+        </div>
+        <div class="test"><img src="imagens/coment3.jpg" alt="">
+          <P class="parag5">ANTONY BIANCHI.</P><BR>
+          <P class="parag5">(CEO of Multinational)</P><br>
+          <p>"Sou empresário do ramo de peças automotivas, quando precisei de um site, esta foi a minha primeira opção,
+            não me arrependo, possuo o plano PRO para EMPRESAS, pensando em migrar para o PREMIUM em breve."</p><br><a
+            href="#"><button id="btnp" type="button" class="btn btn-warning">Plano de Antony</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="sec6">
+      <div class="centralDiv">
+        <h1 id="testFaq">FAQs</h1>
+        <br>
+        <!-- Pergunta um -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                1- SOU PROGRAMADOR, QUERO PARTICIPAR COMO FAÇO?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Faça ja seu cadastro:</strong> Você passara por alguns testes lógicos de programação, sendo
+                aprovado você ja pode começar a trabalhar e receber pelos seus trabalhos!
+              </div>
+            </div>
+          </div>
+          <!-- Pergunta dois -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2- SOU EMPRESA, QUERO PARTICIPAR COMO FAÇO?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Faça ja seu cadastro:</strong> Escolha seu PLANO, envie seu projeto e espere, <strong>ELE FICARÁ
+                  PRONTO!</strong>
+              </div>
+            </div>
+          </div>
+          <!--Pergunta tres -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3- QUANTO QUE CUSTA?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Esta é a coisa mais importante:</strong> Aqui prezamos pela acessibilidade, então, alem de
+                planos pagos, tambem temos nossa <strong>OPÇÃO GRATUITA!</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#"><button id="btnp" type="button" class="btn btn-warning">PLANOS DISPONIVEIS</button></a>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="containerFooter">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted degrade">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted degrade">Nossos Planos</a></li>
+          <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-muted degrade">Contato</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link px-2 text-muted degrade">Sobre</a></li>
+        </ul>
+        <a href="index.html">
+          <h1 class="gradiente centraliza"><span class="letra">F</span>ront<span class="letra">E</span>nders</h1>
+        </a>
+      </footer>
+    </div>
+  </main>
+
+  <!-- VLIBRAS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>

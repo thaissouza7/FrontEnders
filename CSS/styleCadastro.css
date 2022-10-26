@@ -1,0 +1,102 @@
+/**
+ * @author Monique Moura <eumoniqueribeiro@gmail.com>
+ */
+
+ input[type=number] {
+    -moz-appearance: textfield;
+ }
+ 
+ .aparencia {
+    padding: 50px;
+    /* backdrop-filter: blur(15px); */
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 30px 2px rgb(237, 249, 3);
+    z-index: 1;
+    padding: 40px;
+ }
+ 
+ main {
+    background-color: black;
+ }
+ 
+ .container {
+    background-color: none;
+ }
+
+ /* HEADER */
+header{
+    border-bottom: solid grey 1px;
+}
+
+.text-bg-dark{
+    background-color: black !important;
+}
+#btnr{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+}
+
+#btnr:hover{
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    border: none;
+}
+
+#entrarBtn{
+    background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
+    border: none;
+}
+
+.marca a{
+    padding-right: 100px;
+    text-decoration: none;
+}
+/* .letra{
+    color: #FFE600  ;
+} */
+.gradiente{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+
+.degrade{
+    color: white !important;
+}
+.degrade:hover{
+    background-image: linear-gradient(90deg, rgba(233,178,34,1) 13%, rgba(252,255,101,0.8911939775910365) 55%, rgba(233,178,34,1) 91%);
+    background-clip: text;/*apaga o fundo que esta atras da letra */
+    -webkit-background-clip: text; /*ajuda a apagar o fundo em alguns navegadores*/
+    -webkit-text-fill-color: transparent; /*deixa o texto transparente*/
+}
+
+/* FOOTER  */
+
+/* COR DO FOOTER  */
+.containerFooter{
+    background-color: black !important;
+    margin:0;
+    border-top: solid white 1px;
+ }
+ 
+ /* CENTRALIZA O LOGO 'FRONTENDERS ' NO FOOTER  */
+ .centraliza{
+     font-size: 21px;
+ 
+     display: flex;
+     justify-content: center;
+
+ }
+ 
+ /* FOOTER FICAR SEM MARGIN BOTTOM  */
+ .my-4{
+     margin: 0 !important;
+ }
+ 
+footer h1{
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+}
