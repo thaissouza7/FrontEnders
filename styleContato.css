@@ -43,6 +43,13 @@ header{
     background-image: linear-gradient(90deg, rgba(166,166,161,1) 14%, rgba(210,203,188,1) 41%, rgba(231,225,211,0.9332107843137255) 51%, rgba(166,166,161,1) 93%);
     
 }
+#btnRegistrar{
+    color: black;
+    
+}
+#btnRegistrar:hover{
+    color: black;
+}
 #btnr0{
     background-color: #FFE600;
     border: gold;
