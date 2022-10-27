@@ -56,6 +56,10 @@ header{
     text-decoration: none;
 }
 
+.degrade{
+    color: white !important;
+}
+
 .ajusteHeader{
     width: auto;
     padding:0 15px 0 15px;
