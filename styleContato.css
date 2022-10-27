@@ -56,10 +56,6 @@ header{
     text-decoration: none;
 }
 
-.degrade{
-    color: white !important;
-}
-
 .ajusteHeader{
     width: auto;
     padding:0 15px 0 15px;
@@ -257,6 +253,10 @@ a:hover{
     margin: 0 !important;
 }
 /* FOOTER FICAR SEM MARGIN BOTTOM  */
+
+.degrade{
+    color: white !important;
+}
 
 /* FOOTER  */
 @media (max-width:800px){
